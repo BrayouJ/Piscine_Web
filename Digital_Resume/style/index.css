@@ -1,0 +1,76 @@
+.body {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "railway",sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 50%
+}
+
+.header p {
+    font-size: x-large;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav {
+    width: 50%;
+    font-size: small;
+}
+
+.welcome {
+    font-size: 400%;
+}
+
+.list {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    gap: 10%
+}
+
+.text {
+    background-color: #191919;
+    color: white;
+    width: 50%;
+    height: 55vh;
+}
+
+.picture {
+    background-color: white;
+    width: 50%;
+    height: 55vh
+}
+
+.wild_dive {
+    width: 100%;
+    height: 110vh;
+    background-image: linear-gradient(#2d5dad,black);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.adress {
+    width: 50%;
+    height: 55vh;
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

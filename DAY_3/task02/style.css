@@ -1,0 +1,34 @@
+@media screen and (max-width: 767px) {
+
+  body {
+      background-color: white;
+      gap: 10px;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .header{
+    background-color: lightblue;
+    width: 100%;
+    height: 11vh;
+  }
+
+  #nav{
+    background-color: greenyellow;
+    width: 100%;
+    height: 23vh;
+  }
+
+  .section{
+    background-color: orange;
+    width: 100%;
+    height: 23vh;
+  }
+
+  #footer{
+    background-color: red;
+    width: 100%;
+    height: 11vh;
+  }
+
+}
